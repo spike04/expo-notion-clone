@@ -13,7 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rubin.notionClone"
     },
     "android": {
       "adaptiveIcon": {
@@ -27,6 +28,7 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
+      "@prisma/react-native",
       "expo-router"
     ],
     "experiments": {
